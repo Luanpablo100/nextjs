@@ -11,7 +11,7 @@ export default function Home({posts}) {
 
       <Container>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20">
+      <main className="flex flex-col items-center justify-center w-full flex-1 px-5 md:px-20">
 
       <img src='https://github.com/Luanpablo100.png' alt='Luan Oliveira Profile' className='rounded-full h-44'/>
 
