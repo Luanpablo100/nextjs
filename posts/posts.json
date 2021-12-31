@@ -1,0 +1,31 @@
+{
+    "name": "Luan Oliveira",
+    "description": "Hi! I'm Luan, a young student of IT, who dreams to become a FullStack Developer. I was born in Brazil, i'm 18 years old and this is my first Next.js project.",
+    "posts": [
+        {
+            "name": "next-planetscale",
+            "href": "https://luanpablo100-planetscale.vercel.app",
+            "repo": "https://github.com/Luanpablo100/next-prisma-planetscale"
+        },
+        {
+            "name": "switchmap",
+            "href": "",
+            "repo": "https://github.com/Luanpablo100/switchmap"
+        },
+        {
+            "name": "jwt-next-auth",
+            "href": "",
+            "repo": "https://github.com/Luanpablo100/jwtNextAuth"
+        },
+        {
+            "name": "glpi-inventory-control",
+            "href": "",
+            "repo": "https://github.com/Luanpablo100/glpi-inventory-control"
+        },
+        {
+            "name": "google-auth",
+            "href": "",
+            "repo": "https://github.com/Luanpablo100/google-authentication"
+        }
+    ]
+}
