@@ -1,6 +1,6 @@
 {
     "name": "Luan Oliveira",
-    "description": "Hi! I'm Luan, a young student of IT, who dreams to become a FullStack Developer. I was born in Brazil, i'm 18 years old and this is my first Next.js project.",
+    "description": "Hi! I'm Luan, a young student of IT, who dreams to become a FullStack Developer. I was born in Brazil. I started working at 15 years old as an IT apprentice at Atack Hiperatacado, at 17 I became an intern. And today I want to become a Fullstack Developer JR.",
     "posts": [
         {
             "name": "next-planetscale",
@@ -27,5 +27,17 @@
             "href": "",
             "repo": "https://github.com/Luanpablo100/google-authentication"
         }
+    ],
+    "skills": [
+        "Javascript",
+        "ReactJs",
+        "NextJs",
+        "Nodejs",
+        "Computer Maintenance",
+        "Windows and Linux Servers",
+        "HTML & CSS",
+        "SQL",
+        "GIT",
+        "Structured Network"
     ]
 }
