@@ -21,8 +21,9 @@ export default function Home({posts}) {
           <h2 className='text-xl my-4'>Here you can check something i have done.</h2>
 
         <div className='grid grid-cols-3 gap-3'>
-          <Link href={'/projects'}><a>Projects</a></Link>
-          <Link href={'/skills'}><a>Skills</a></Link>
+          <Link href={'/projects'}><a className='text-teal-400 font-bold hover:text-teal-500 hover:underline underline-offset-2 text-xl text-center'>Projects</a></Link>
+          <Link href={'/skills'}><a className='text-teal-400 font-bold hover:text-teal-500 hover:underline underline-offset-2 text-xl text-center'>Skills</a></Link>
+          <Link href={'/career'}><a className='text-teal-400 font-bold hover:text-teal-500 hover:underline underline-offset-2 text-xl text-center'>Career</a></Link>
           {/* <Link href={'/projects'}><a>Projects</a></Link> */}
         </div>
       </main>
