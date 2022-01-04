@@ -16,7 +16,7 @@ export default function Home() {
                 <h2 className='text-xl my-4'>Switchmap is a web service to document switchports, based on the fact that in network infrastructures it is very common to have cascading, where ports connect to patch panels, and from them to sectors, with Switchmap you can know which sector the port goes.</h2>
                 <a href="https://github.com/Luanpablo100/switchmap" className="bg-gray-900 rounded px-6 py-3 text-teal-400 hover:font-bold" target={'_blank'}>Repo</a>
                 <div className=" text-left w-1/3">
-                    <Link href={'/'}><a className="text-teal-900 font-bold text-xl">Voltar</a></Link>
+                    <Link href={'/projects'}><a className="text-teal-900 font-bold text-xl hover:underline underline-offset-2">Voltar</a></Link>
                 </div>
             </main>
         </Container>

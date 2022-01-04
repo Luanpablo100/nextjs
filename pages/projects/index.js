@@ -1,24 +1,24 @@
 import fs from 'fs'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import Container from '../../Components/Container'
 
 export default function Home({posts}) {
     return (
         <Container>
-            <div className='grid grid-cols-3 gap-3'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-3'>
 
             {posts.posts.map(item => (
-                <Link href={`/projects/${item.name}`} key={item.name}>
-            <a>
-                <div className="p-4 border border-2 border-slate-400 rounded-xl  text-teal-400 font-bold text-md py-10 px-6 text-center bg-gray-900 hover:border-teal-400 hover:shadow">
-                {item.name}
+            <Link href={`/projects/${item.name}`} key={item.name}>
+                <div className='flex flex-col items-center justify-center border rounded-md py-2 px-3 cursor-pointer shadow hover:shadow-md'>
+                    <Image src={`/img/${item.name}.png`} width={70} height={70}/>
+                    <h2>{item.name}</h2>
                 </div>
-            </a>
             </Link>
         ))}
             </div>
-            <div>
+            <div className='mt-4'>
                 <Link href={'/'}><a className='text-teal-900 font-bold text-xl'>Voltar</a></Link>
             </div>
       </Container>
