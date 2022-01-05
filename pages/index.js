@@ -24,7 +24,6 @@ export default function Home({posts}) {
           <Link href={'/projects'}><a className='text-teal-400 font-bold hover:text-teal-500 hover:underline underline-offset-2 text-xl text-center'>Projetos</a></Link>
           <Link href={'/skills'}><a className='text-teal-400 font-bold hover:text-teal-500 hover:underline underline-offset-2 text-xl text-center'>Habilidades</a></Link>
           <Link href={'/career'}><a className='text-teal-400 font-bold hover:text-teal-500 hover:underline underline-offset-2 text-xl text-center'>Carreira</a></Link>
-          {/* <Link href={'/projects'}><a>Projects</a></Link> */}
         </div>
       </main>
       </Container>

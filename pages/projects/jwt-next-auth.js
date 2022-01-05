@@ -8,7 +8,7 @@ export default function Home() {
     return (
 
         <Container>
-            <main className="flex flex-col items-center justify-center w-full flex-1 px-20">
+            <main className="flex flex-col items-center justify-center w-full flex-1 px-4 md:px-20">
 
                 <Image src={'/img/jwt-next-auth.png'} width={180} height={180}/>
 

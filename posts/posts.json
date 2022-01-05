@@ -28,16 +28,10 @@
             "repo": "https://github.com/Luanpablo100/google-authentication"
         }
     ],
-    "skills": [
-        "Javascript",
-        "ReactJs",
-        "NextJs",
-        "Nodejs",
-        "Computer Maintenance",
-        "Windows and Linux Servers",
-        "HTML & CSS",
-        "SQL",
-        "GIT",
-        "Structured Network"
-    ]
+    "skills": {
+        "development": ["Javascript","ReactJs","NextJs","Nodejs","HTML & CSS","SQL","GIT"],
+        "network": ["Rede Estruturada","Servidores Windows e Linux"],
+        "languages": ["Inglês Intermediário"],
+        "others": ["Pacote Office","Photoshop","CorelDraw","AutoCAD"]
+    }
 }
