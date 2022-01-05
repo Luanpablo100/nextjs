@@ -29,7 +29,7 @@
         }
     ],
     "skills": {
-        "development": ["Javascript","ReactJs","NextJs","Nodejs","HTML & CSS","SQL","GIT"],
+        "development": ["Javascript","ReactJs","NextJs","Nodejs","HTML & CSS","SQL","GIT", "Prisma"],
         "network": ["Rede Estruturada","Servidores Windows e Linux"],
         "languages": ["Inglês Intermediário"],
         "others": ["Pacote Office","Photoshop","CorelDraw","AutoCAD"]
